@@ -42,10 +42,10 @@ Tag-based Skills uses Minecraft tags to control skill-related mechanics.
 | Crop Growth Tags | Effect |
 |---|---|
 | skill_twerk_growth | Unlocks the ability to increase Crop grow speed by sneaking nearby |
-| skill_twerk_radius_2=1 | Increases the Chance and max affected Blocks by 50% |
-| skill_twerk_radius_3=2 | Increases the Chance and max affected Blocks by 100% |
-| skill_twerk_power_2=1.5 | NeoForge |
-| skill_twerk_power_3=2.0 | 21.1.248 |
+| skill_twerk_radius_2=1 | Increase the Radius by one Block |
+| skill_twerk_radius_3=2 | Increases the Radius by two Blocks |
+| skill_twerk_power_2=1.5 | Increases the Chance and max affected Blocks by 50% |
+| skill_twerk_power_3=2.0 | Increases the Chance and max affected Blocks by 100% |
 | skill_sprint_growth |  Unlocks the ability to increase Crop grow speed by sprinting nearby |
 | skill_sprint_radius_2=1 | Increase the Radius by one Block |
 | skill_sprint_radius_3=2 | Increases the Radius by two Blocks |
