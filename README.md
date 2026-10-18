@@ -29,7 +29,7 @@ The goal is to make skill-related mechanics easy to customize using Minecraft's 
 ## Installation
 
 1. Install Minecraft **1.21.1** with NeoForge.
-2. Download the mod JAR from the [GitHub Releases](https://github.com/Meisterbauer04/Tag-based-Skills-/releases) page once a release is available.
+2. Download the mod JAR from the [GitHub Releases](https://github.com/Meisterbauer04/Tag-based-Skills-/releases) page.
 3. Place the downloaded `.jar` file into your Minecraft `mods` folder.
 4. Launch Minecraft with the NeoForge profile.
 
@@ -39,7 +39,31 @@ Tag-based Skills uses Minecraft tags to control skill-related mechanics.
 
 ### Supported Tags
 
-*TODO: Document all supported tag IDs, their purposes, and their effects.*
+| Crop Growth Tags | Effect |
+|---|---|
+| skill_twerk_growth | Unlocks the ability to increase Crop grow speed by sneaking nearby |
+| skill_twerk_radius_2=1 | Increases the Chance and max affected Blocks by 50% |
+| skill_twerk_radius_3=2 | Increases the Chance and max affected Blocks by 100% |
+| skill_twerk_power_2=1.5 | NeoForge |
+| skill_twerk_power_3=2.0 | 21.1.248 |
+| skill_sprint_growth |  Unlocks the ability to increase Crop grow speed by sprinting nearby |
+| skill_sprint_radius_2=1 | Increase the Radius by one Block |
+| skill_sprint_radius_3=2 | Increases the Radius by two Blocks |
+| skill_sprint_power_2=1.5 | Increases the Chance and max affected Blocks by 50% |
+| skill_sprint_power_3=2.0 | Increases the Chance and max affected Blocks by 100% |
+
+*Note: Tags that modify the same Stat dont stack*
+
+| Enchantment Tags | Effect |
+|---|---|
+| cheaper_enchantments_1 | Reduces Enchantment Cost by 25% |
+| cheaper_enchantments_2 | Reduces Enchantment Cost by 50% |
+| cheaper_enchantments_3 | Reduces Enchantment Cost by 75% |
+| cheaper_enchantments_4 | Enchantment Cost matches Vanilla Minecraft 1.8+ |
+
+*Note: This Mod changes Enchantment Cost behavior, as it was prior to Minecraft 1.8*
+
+
 
 ### Editing Tags
 
@@ -73,7 +97,7 @@ When reporting a bug, include your Minecraft version, NeoForge version, steps to
 
 ## License
 
-This project declares the MIT license. See the project's license file once added.
+This project declares the MIT license. See the project's license file.
 
 ## Credits
 
