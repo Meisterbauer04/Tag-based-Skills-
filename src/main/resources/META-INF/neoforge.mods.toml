@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="tag_based_skills"
+version="1.0.0"
+displayName="Tag based Skills (for pufferfish's skills)"
+authors="Meisterbauer04"
+description='''
+A Collection of Skills, which can be controlled via simple minecraft tags.
+(Designed for Pufferfish's Skills)
+'''
+
+[[mixins]]
+config="tagbasedskills.mixins.json"
+
+[[dependencies.tag_based_skills]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tag_based_skills]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
