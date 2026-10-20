@@ -101,6 +101,5 @@ This project declares the MIT license. See the project's license file.
 
 ## Credits
 
-- **Meisterbauer04** — Mod development
 - **[NeoForged](https://github.com/neoforged/NeoForge)** — NeoForge modding framework
 - **[Pufferfish's Skills](https://github.com/pufmat/skillsmod)** — Inspiration and skill-system integration
